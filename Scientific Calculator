@@ -1,0 +1,65 @@
+AUTHOR : M.Aqib
+//CLASS BSCS SECTION-D
+//ROLL NO : 35
+
+#include<iostream>
+using namespace std;
+#include<cmath>
+
+int mysum(int a, int b){
+	return a+b;
+}
+int mysub(int a,int b){
+	return a-b;
+}
+int myprod(int a, int b){
+	return a*b;
+}
+float mydiv(float a, float b){
+	return a/b;
+}
+
+int main(){
+cout<<"enter your 1st number:"<<endl;
+	int a,b, add,sub,prod,div, quotient, remainder;
+    cin>>a;
+    cout<<"enter your 2nd number"<<endl;
+    cin>>b;
+    cout<<"your operations are completed brlows"<<endl; 
+	add = mysum(a,b);
+	cout<<"Addition of  "<<a<<" and "<<b <<" = "<<add<<endl;
+	cout<<"____________________________"<<endl,
+	sub = mysub(a,b);
+	cout<<"Subtraction of  "<<a<<" and "<<b <<" = "<<sub<<endl;
+	cout<<"____________________________"<<endl;
+	prod = myprod(a,b);
+	cout<<"Product of  "<<a<<" and "<<b <<" = "<<prod<<endl;
+	cout<<"____________________________"<<endl;
+	div = mydiv(a,b);
+	cout<<"Division of"<<a<<" and "<<b <<" = "<<div<<endl;
+	cout<<"____________________________"<<endl;
+	cout<<"log of "<<a<<" ="<<log(a)<<endl;
+	cout<<"log  of"<<b<<" = "<<log(b)<<endl;
+	cout<<"____________________________"<<endl;
+	cout<<"SquareRoot of"<<a<<" = "<<sqrt(a)<<endl;
+	cout<<"SquareRoot of "<<b<<" ="<<sqrt(b)<<endl;
+	cout<<"____________________________"<<endl;
+	quotient = a / b;
+	remainder = a % b;
+	
+	cout<<"Quotient of "<<a<<" and "<<b<<" = "<<quotient<<endl;
+	cout<<"remainder of"<<a<<" and "<<b<<" = "<<remainder<<endl;
+	cout<<"____________________________"<<endl;
+	cout<<"sin of "<<a<<" = "<<sin(a)<<endl;
+	cout<<"sinh  of"<<a<<" ="<<sinh(a)<<endl;
+	cout<<"____________________________"<<endl;
+	cout<<"sin  of"<<b<<" = "<<sin(b)<<endl;
+	cout<<"sinh of "<<b<<" ="<<sinh(b)<<endl;
+	cout<<"____________________________"<<endl;
+	cout<<"tan  of"<<a<<" = "<<tan(a)<<endl;
+	cout<<"tanh  of"<<a<<" = "<<tanh(a)<<endl;
+	cout<<"____________________________"<<endl;
+	cout<<"tan of"<<b<<" ="<<tan(b)<<endl;
+	cout<<"tanh of "<<b<<" ="<<tanh(b)<<endl;
+cout<<"thanks for using my calculter";
+}
